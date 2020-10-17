@@ -1,0 +1,123 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+.nav-bar{
+    display: flex;
+    padding: 40px 120px;
+  }
+  
+  .nav-logo img{
+    margin-top: -25px;
+    width: 85px;
+    cursor: pointer; 
+    /*border: 1px solid #3498db; */
+    background-color: transparent; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); 
+    border-radius: 12px;
+  }
+  
+  .nav-links{
+    flex: 1;
+  }
+  
+  .nav-links ul{
+    margin-left: 50px;
+    display: inline;
+    /*cursor: pointer; 
+    background-color: transparent; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */
+     /*border: 1px solid #3498db; */
+  }
+  
+  .nav-links ul li{
+    list-style: none; 
+    display: inline-block;
+    padding: 8px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria;
+    cursor: pointer; 
+    /*border: 1px solid #3498db; */
+    /*text-shadow: 1px 1px #000;
+    background-color: transparent; 
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.8); */
+  }
+  
+  #contact{
+    float: right;
+    cursor: pointer; 
+    /*border: 1px solid #3498db; */
+    /*color:transparent;*/
+    background-color: transparent; 
+    border-color:white;
+    border-radius: 15px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.8); 
+    
+  }
+  /*.nav-links ul ul{
+    list-style: none; 
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Candara;
+  }*/
+  
+  .nav-links ul a{
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  .nav-links ul li::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background:#000;
+    display: block;
+    margin:auto;
+    transition: .5s;
+  
+  }
+  
+.nav-links ul li:hover::after{
+    width:100%;
+  }
+
+.try{
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    border-radius: 0.5em;
+    width: 50%;
+    height: 20vh;
+    background-color: aquamarine;
+}
+.download{
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0.5em;
+    float: left;
+    width: 50%;
+    height: 20vh;
+    align-self: end;
+    background-color: coral;
+}
+.tryTitle{
+    color: #FD95C9;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-shadow: 0.05em 0.09em 0.09em #000;
+    text-align: center;
+    padding-top: 1.5em;
+}
+.dwnTitle{
+    color: #a6c6c1;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-shadow: 0.05em 0.09em 0.09em #000;
+    text-align: center;
+    padding-top: 1.5em;
+}
